@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <head>
- 	<title>Kosisochukwu</title>
- 	<style>
- 	  body {
- 	    text-align: center;
- 	    background: url("backgroundpic.jpg");
- 	    background-size: cover;
- 	    background-position: center;
- 	    color: solid black;
- 	    font-family: georgia;
+  <title>Kosisochukwu</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("backgroundpic.jpg");
+      background-size: cover;
+      background-position: center;
+      color: solid black;
+      font-family: georgia;
     }
     img {
       border-radius: 100px;
     }
-	  p {
-	    font-size: 30px;
- 	  }
- 	  input {
+    p {
+      font-size: 30px;
+    }
+    input {
       border: 0;
       padding: 10px;
       font-size: 20px;
- 	  }
- 	  input[type="submit"] {
- 	    background: green;
- 	    color: white;
- 	  }
- 	</style>
+      border: 1px solid black;
+    }
+    input[type="submit"] {
+      background: green;
+      color: white;
+      border: 1px solid black;
+    }
+    ul {
+      padding: 20px;
+    }
+    li {
+      display: block;
+      padding: 10px;
+    }
+    a:hover{
+      color: green;
+    }
+    a {
+      color: white;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    @media (max-width: 500px) {
+      p {
+        font-size: 20px;
+      } 
+      input {
+        border: 0;
+        padding: 5px;
+        font-size: 15px;
+      }
+      a {
+        font-size: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
- 	<img src="kosi.jpg">
-  <p>Hi! I am Kosy, a female IT techie. Say hello!</p>
+  <img src="kosi.jpg">
+  <p>Hi! I am Kosy...say hello!<br>Or take a look at my projects.</p>
   <input type="email" placeholder="Your email">
-  <input type="submit" value="submit">
+  <input type="submit" value="Submit">
+  <ul>
+    <li><a href="http://kosyfrances.github.io/blog-theme/" target="_blank">My blog</a></li>
+    <li><a href="http://kosyfrances.github.io/business-website/" target="_blank">My restaurant</a></li>
+    <li><a href="http://kosyfrances.github.io/css-robot/" target="_blank">My CSS robot</a></li>
+    <li><a href="http://kosyfrances.github.io/madlibs-game/" target="_blank">Madlibs game</a></li>
+    <li><a href="http://kosyfrances.github.io/calculator/" target="_blank">Calculator</a></li>
+  </ul>
 </body>
